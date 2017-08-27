@@ -38,7 +38,7 @@ function install_requirements() {
 
 # VERSION/PRERELEASE/BUILD must be exported as they is being read as an env var by the cloudify-agent-packager
 export CORE_TAG_NAME="4.2.dev1"
-export CORE_BRANCH="master"
+export CORE_BRANCH="17.9.6-build"
 GITHUB_USERNAME=$1
 GITHUB_PASSWORD=$2
 AWS_ACCESS_KEY_ID=$3
